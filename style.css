@@ -490,6 +490,28 @@ footer {
     text-align: left;
 }
 
+.form-control {
+    border: 1px solid rgba(255, 255, 255, 0.66);
+    border-radius: 0;
+    color: white;
+    padding: 8px 20px;
+    background: transparent;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.form-check-input {
+    border: 1px solid rgba(255, 255, 255, 0.66);
+    border-radius: 0 !important;
+}
+
+.form-check-input:checked {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.66)
+}
+
 @media (max-width: 767.98px) {
     .comparison-table {
         min-width: 720px;
