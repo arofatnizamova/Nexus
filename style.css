@@ -211,6 +211,14 @@ a {
     width: 60%;
 }
 
+.w-70 {
+    width: 70%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
 .w-90 {
     width: 90%;
 }
@@ -461,6 +469,10 @@ footer {
     border-radius: 50%;
     top: -6px;
     left: 0;
+}
+
+.equipment .card-line {
+    bottom: 10%;
 }
 
 @media (max-width: 767.98px) {
