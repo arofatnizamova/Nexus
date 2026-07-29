@@ -16,253 +16,107 @@
 </head>
 
 <body>
-    <header class=" bg-white border-bottom border-light">
-        <nav class="navbar navbar-expand-lg py-xl-0 pb-2 sticky-lg-top">
-            <div class="container ">
-                <div class="w-lg-fit-content d-flex justify-content-between align-items-center">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="icons/main-icons/logo.png" alt="" class="logo">
+    <header class="bg-white border-bottom position-relative border-light">
+        <nav class="navbar navbar-expand-xl py-xl-0 pb-2 ">
+            <div class="container">
+                <div class="w-xl-fit-content d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand" href="index-ru.html">
+                        <img src="icons/main-icons/logo.png" alt="Nexus" class="logo">
                     </a>
 
                     <div class="d-flex align-items-center d-xl-none gap-2">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                         <div class="dropdown">
-                            <button class="border-0 bg-corp-2 text-white p-2  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              EN <i class="bi bi-chevron-down ms-2"></i>
+                            <button class="border-0 bg-transparent p-2 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                RU <i class="bi bi-chevron-down ms-2"></i>
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="index-ru.html">Русский</a></li>
-                                <li><a class="dropdown-item" href="index-uz.html">Узбекский</a></li>
-                                <li><a class="dropdown-item" href="index.html">Английский</a></li>
+                                <li><a class="dropdown-item" href="#">Русский</a></li>
+                                <li><a class="dropdown-item" href="#">Узбекский</a></li>
+                                <li><a class="dropdown-item" href="#">Английский</a></li>
                             </ul>
                         </div>
 
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Открыть навигацию">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-
                     </div>
                 </div>
 
-                <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav mx-auto gap-xl-5 ">
+                <div class="collapse navbar-collapse justify-content-center gap-xl-5" id="navbarNav">
+                    <ul class="navbar-nav gap-xl-5 ">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link" href="#">Главная</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#product">Products</a>
+                            <a class="nav-link" href="#">О комапнии</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#sectors">Sectors</a>
+                            <a class="nav-link" href="#">Продукция</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#process">Process</a>
+                            <a class="nav-link" href="#">Оборудование</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#cooperation">Cooperation</a>
+                            <a class="nav-link" href="#">Технология</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#waranty">Waranty</a>
+                            <a class="nav-link" href="#">Услуги</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contacts">Contacts</a>
+                            <a class="nav-link" href="#">Конаткты</a>
                         </li>
                     </ul>
+
                     <div class="dropdown d-xl-block d-none">
-                        <button class="border-0 bg-corp-2 text-white p-2  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          EN <i class="bi bi-chevron-down ms-2"></i>
+                        <button class="border-0 bg-transparent  p-2 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            RU <i class="bi bi-chevron-down ms-2"></i>
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="index-ru.html">Русский</a></li>
-                            <li><a class="dropdown-item" href="index-uz.html">Узбекский</a></li>
-                            <li><a class="dropdown-item" href="index.html">Английский</a></li>
+                            <li><a class="dropdown-item" href="#">Русский</a></li>
+                            <li><a class="dropdown-item" href="#">Узбекский</a></li>
+                            <li><a class="dropdown-item" href="#">Английский</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
+        <div class="position-absolute d-xxl-flex d-none z-2 h-100  align-items-center gap-4 end-0 top-0">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#" class="d-block text-2xs bg-corp-2 text-white px-3 h-100 d-flex align-items-center">Связаться с нами</a>
+        </div>
     </header>
+
     <main>
         <section class="position-relative text-white">
-            <div class="overlay position-absolute"></div>
             <img src="images/banner-img.png" alt="" class="img-fluid w-100 banner-img-h object-fit-cover">
             <div class="position-absolute w-100 h-100 z-3 top-0 start-0 d-flex align-items-center">
                 <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
+                    <div class="row ">
+                        <div class="col-lg-9">
                             <div class="w-100 h-100 text-lg-start text-center">
-                                <h3 class="text-xl fw-bold mb-4">
-                                    Solutions in waterproofing, flooring and protective coatings
+                                <p class="text-2xl fw-bold mb-0">
+                                    NEXUS POLYUREA GROUP
+                                </p>
+                                <h3 class="text-lg  mb-4">
+                                    Защищаем инфраструктуру. Создаем будущее
                                 </h3>
                                 <p class="text-sm">
-                                    For over 25 years, we have been developing and manufacturing polyurethane, epoxy, and polyurea resins for construction, renovation, and industrial applications. From our facilities, we distribute to more than 70 countries, following strict research, production,
-                                    and quality control procedures to ensure the highest standards and maximum customer satisfaction.
+                                    Промышленные системы защиты поверхностей для энергетики, нефтегазовой отрасли и
+                                    гидротехнических сооружений. Производство полимочевины в Узбекистане.
                                 </p>
-                                <a href="#about" class="btn">More information </a>
+                                <a href="#about" class="btn-outline-arrow">
+                                    <span class="btn-outline-arrow__text">
+                                        Подробнее
+                                    </span>
+
+                                    <span class="btn-outline-arrow__icon">
+                                        <i class="bi bi-arrow-up-right"></i>
+                                    </span>
+                                </a>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="products" class="bg-main py-5 text-lg-start text-center">
-            <div class="container py-lg-5">
-                <div class="row gy-4">
-                    <div class="col-lg-7">
-                        <div class="w-100">
-                            <h3 class="text-lg text-corp-2 fw-bold">
-                                Polyurethanes, epoxies, polyureas and much more
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="w-100">
-                            <p class="fw-semibold text-sm mb-3">
-                                We harness the unique properties of each of these technologies in our products and systems designed for waterproofing, seamless flooring and industrial coatings projects.
-                            </p>
-                            <p class="text-sm">
-                                If you are looking for complete solutions, we invite you to visit <span class="text-corp-2">our systems section</span> . If you already know our products, we show you all the information you need.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="pt-5"></div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="w-100">
-                            <img src="images/1.png" alt="" class="img-fluid">
-                            <h5 class="fw-bold mt-3 text-md text-corp-2">
-                                Waterproofing
-                            </h5>
-                            <p class="text-xs opacity-75">
-                                Discover our ranges of cold and hot waterproofing, based on polyurethane and polyurea. We work only with the finest raw materials so that our product always meets the demands of your project.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="w-100">
-                            <img src="images/2.png" alt="" class="img-fluid">
-                            <h5 class="fw-bold mt-3 text-md text-corp-2">
-                                Flooring
-                            </h5>
-                            <p class="text-xs opacity-75">
-                                Choose the product that best suits your needs from our range of self-leveling, thin-set, multi-layer, and mortar products.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="w-100">
-                            <img src="images/3.png" alt="" class="img-fluid">
-                            <h5 class="fw-bold mt-3 text-md text-corp-2">
-                                Industrial coatings
-                            </h5>
-                            <p class="text-xs opacity-75">
-                                Learn about our range of polyurea and polyurethane coatings for industry, and all their properties for projects in different industrial sectors.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <section id="about" class="py-5">
-            <div class="container py-lg-5">
-                <div class="row flex-lg-row-reverse justify-content-lg-between justify-content-center">
-                    <div class="col-lg-7">
-                        <div class="w-100">
-                            <h3 class="text-sm text-corp-2">
-                                About Us
-                            </h3>
-                            <h4 class="fw-bold text-lg">
-                                More than 25 years of experience in the development and manufacturing of liquid membranes for construction and industry.
-                            </h4>
-                            <p class="text-sm fw-semibold">
-                                We develop and manufacture our own polyurea, polyurethane and epoxy resins for all types of waterproofing and flooring coating projects at our facilities in L’Hospitalet de l’Infant, Tarragona. We also produce protective membranes for industrial applications.
-                            </p>
-                            <p class="text-sm opacity-75">
-                                Additionally, we provide extensive technical advisory experience, supporting projects at every stage. We offer training, certifications, and warranties for our products and systems.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 ">
-                        <div class="w-100 h-100 d-lg-flex d-none align-items-center ">
-                            <img src="images/4.png" alt="" class="img-fluid arrow-hover">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <section id="sectors" class="py-5">
-            <div class="container">
-                <h3 class="text-sm text-corp-2 text-center">
-                    Sectors
-                </h3>
-                <h4 class="fw-bold text-lg text-center mb-5">
-                    We are present in many sectors through our applications
-                </h4>
-                <div class="row gy-5">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="w-100 h-100 pt-lg-5 sector-card d-flex align-items-center gap-lg-5 gap-3">
-                            <img src="icons/pages-home/1.png" alt="" class="icon-size-sm img-fluid">
-                            <p class="fw-bold mb-0 text-sm">
-                                Building and refurbishment
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="w-100 h-100 pt-lg-5 sector-card d-flex align-items-center gap-lg-5 gap-3">
-                            <img src="icons/pages-home/2.png" alt="" class="icon-size-sm img-fluid">
-                            <p class="fw-bold mb-0 text-sm">
-                                Building and refurbishment
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="w-100 h-100 pt-lg-5 sector-card d-flex align-items-center gap-lg-5 gap-3">
-                            <img src="icons/pages-home/3.png" alt="" class="icon-size-sm img-fluid">
-                            <p class="fw-bold mb-0 text-sm">
-                                Building and refurbishment
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="w-100 h-100 pt-lg-5 sector-card d-flex align-items-center gap-lg-5 gap-3">
-                            <img src="icons/pages-home/4.png" alt="" class="icon-size-sm img-fluid">
-                            <p class="fw-bold mb-0 text-sm">
-                                Building and refurbishment
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="w-100 h-100 pt-lg-5 sector-card d-flex align-items-center gap-lg-5 gap-3">
-                            <img src="icons/pages-home/5.png" alt="" class="icon-size-sm img-fluid">
-                            <p class="fw-bold mb-0 text-sm">
-                                Building and refurbishment
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="w-100 h-100 pt-lg-5 sector-card d-flex align-items-center gap-lg-5 gap-3">
-                            <img src="icons/pages-home/6.png" alt="" class="icon-size-sm img-fluid">
-                            <p class="fw-bold mb-0 text-sm">
-                                Building and refurbishment
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="w-100 h-100 pt-lg-5 sector-card d-flex align-items-center gap-lg-5 gap-3">
-                            <img src="icons/pages-home/7.png" alt="" class="icon-size-sm img-fluid">
-                            <p class="fw-bold mb-0 text-sm">
-                                Building and refurbishment
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="w-100 h-100 pt-lg-5 sector-card d-flex align-items-center gap-lg-5 gap-3">
-                            <img src="icons/pages-home/8.png" alt="" class="icon-size-sm img-fluid">
-                            <p class="fw-bold mb-0 text-sm">
-                                Building and refurbishment
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -270,199 +124,244 @@
         </section>
         <section id="process" class="bg-main py-5">
             <div class="container">
-                <h3 class="text-sm text-corp-2 text-lg-start text-center">
-                    How we work
+                <h3 class="text-md fw-semibold mb-5 text-corp-2 text-lg-start text-center">
+                    Три направления защиты
                 </h3>
-                <h4 class="fw-bold text-lg text-lg-start text-center mb-5">
-                    We analyse, propose and execute
-                </h4>
                 <div class="row gx-0 gy-5">
-                    <div class="col-xl-3 col-lg-6">
+                    <div class="col-xl-4 col-lg-6">
                         <div class="w-100 bg-white p-lg-5 p-4 h-100 process-card">
                             <span class="text-3xl fw-bold number">01</span>
+
                             <h4 class="fw-bold text-md">
-                                We analyse the project
+                                Промышленные объекты
                             </h4>
+
                             <p class="opacity-75 text-xs">
-                                We offer different systems to meet a variety of needs, along with a broad range of innovative products and solutions tailored to each project — including the necessary application equipment.
+                                Производственные цеха, складские комплексы, логистические центры, агрессивные
+                                производственные среды
                             </p>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6">
+
+                    <div class="col-xl-4 col-lg-6">
                         <div class="w-100 bg-white p-lg-5 p-4 h-100 process-card">
                             <span class="text-3xl fw-bold number">02</span>
+
                             <h4 class="fw-bold text-md">
-                                We advise on the best solution
+                                Гидротехническая инфраструктура
                             </h4>
+
                             <p class="opacity-75 text-xs">
-                                Our Technical Office provides technical specifications, training and supervision for large or complex projects, offering integrated solutions that combine products and machinery.
+                                ГЭС, плотины, водохранилища, очистные сооружения, резервуары водоснабжения
                             </p>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6">
+
+                    <div class="col-xl-4 col-lg-6">
                         <div class="w-100 bg-white p-lg-5 p-4 h-100 process-card">
                             <span class="text-3xl fw-bold number">03</span>
+
                             <h4 class="fw-bold text-md">
-                                We deliver on time and with quality
+                                Трубопроводные системы
                             </h4>
+
                             <p class="opacity-75 text-xs">
-                                We manufacture using the latest technology, ensuring fast delivery and consistent quality. We select the best raw materials thanks to our integration with leading European manufacturers and our strategic location in one of the largest chemical production
-                                hubs in Southern Europe.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6">
-                        <div class="w-100 bg-white p-lg-5 p-4 h-100 process-card">
-                            <span class="text-3xl fw-bold number">04</span>
-                            <h4 class="fw-bold text-md">
-                                Documentation and Certifications
-                            </h4>
-                            <p class="opacity-75 text-xs">
-                                Certified quality (ISO 9001). We comply with the most demanding regulations, including CE marking, ETAs, and other certifications.
+                                Нефте и газопроводов, резервуаров хранения, эстакад, антикоррозионная защита
+                                металлоконструкций
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="cooperation" class="py-5 bg-main-2">
-            <div class="container py-5">
-                <div class="row justify-content-center py-lg-5">
-                    <div class="col-lg-8">
-                        <div class="w-100 text-center">
-                            <h3 class="text-sm text-corp-2 ">
-                                We are expanding our distribution network
-                            </h3>
-                            <h4 class="fw-bold text-lg text-lg mb-3">
-                                Interested in becoming a Nexus distributor?
-                            </h4>
-                            <p class="fw-semibold text-sm mb-5">
-                                With more than 25 years of experience, a presence in more than 70 countries across 5 continents, we continue to expand our reach, seeking individuals and companies to bring their expertise and professionalism to our team.
-                            </p>
-                            <a href="#contacts" class="text-corp-2 link-hover">BECOME A DISTRIBUTOR </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="waranty" class="py-5">
-            <div class="container py-lg-5">
-                <h3 class="text-sm text-corp-2 text-center">
-                    Warranty
+        <section class="py-5">
+            <div class="container ">
+                <h3 class="text-md fw-semibold mb-5 text-corp-2 text-lg-start text-center">
+                    Наши преимущества
                 </h3>
-                <h4 class="fw-bold text-lg  text-center mb-5">
-                    Warranty
-                </h4>
-                <div class="row gy-5">
-                    <div class="col-lg-4">
-                        <div class="w-100 h-100 text-center">
-                            <img src="icons/pages-home/9.png" alt="" class="img-fluid icon-size-md">
-                            <p class="text-corp-2 text-sm mt-3 fw-semibold">.ISO</p>
-                            <p class="opacity-75 fw-bold text-md">UNE EN ISO 9001</p>
+                <div class="row gy-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="w-100 h-100">
+                            <div class="position-relative">
+                                <img src="images/advantages/1.png" alt="" class="img-fluid w-100">
+                                <div class="position-absolute bg-corp-2 w-100 z-2 card-line text-white p-2 text-xs d-flex justify-content-between align-items-center">
+                                    <span>Скорость реализации</span>
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </div>
+                            </div>
+                            <p class="mt-3 opacity-75 text-xs">
+                                До 800 м² в день. Минимальный простой инфраструктуры. Ввод в эксплуатацию сразу после
+                                нанесения.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="w-100 h-100 text-center">
-                            <img src="icons/pages-home/10.png" alt="" class="img-fluid icon-size-md">
-                            <p class="text-corp-2 text-sm mt-3 fw-semibold">.DOCUMENT</p>
-                            <p class="opacity-75 fw-bold text-md">QUALITY POLICY</p>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="w-100 h-100">
+                            <div class="position-relative">
+                                <img src="images/advantages/2.png" alt="" class="img-fluid w-100">
+                                <div class="position-absolute bg-corp-2 w-100 z-2 card-line text-white p-2 text-xs d-flex justify-content-between align-items-center">
+                                    <span>Надежность 25+ лет</span>
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </div>
+                            </div>
+                            <p class="mt-3 opacity-75 text-xs">
+                                Устойчивость к экстремальным температурам (−40°C до +120°C), химически агрессивным средам,
+                                гидростатическому давлению.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="w-100 h-100 text-center">
-                            <img src="icons/pages-home/11.png" alt="" class="img-fluid icon-size-md">
-                            <p class="text-corp-2 text-sm mt-3 fw-semibold">.DOCUMENT</p>
-                            <p class="opacity-75 fw-bold text-md">SUPPLIERS AND SUBCONTRACTORS</p>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="w-100 h-100">
+                            <div class="position-relative">
+                                <img src="images/advantages/3.png" alt="" class="img-fluid w-100">
+                                <div class="position-absolute bg-corp-2 w-100 z-2 card-line text-white p-2 text-xs d-flex justify-content-between align-items-center">
+                                    <span>Инженерный подход</span>
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </div>
+                            </div>
+                            <p class="mt-3 opacity-75 text-xs">
+                                6 специализированных систем полимочевины. Подбор решения под конкретные условия
+                                эксплуатации объекта.
+                            </p>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="w-100 h-100">
+                            <div class="position-relative">
+                                <img src="images/advantages/4.png" alt="" class="img-fluid w-100">
+                                <div class="position-absolute bg-corp-2 w-100 z-2 card-line text-white p-2 text-xs d-flex justify-content-between align-items-center">
+                                    <span>Локальное производство</span>
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </div>
+                            </div>
+                            <p class="mt-3 opacity-75 text-xs">
+                                Адаптация рецептур под климатические условия Центральной Азии. Быстрая логистика,
+                                техническая поддержка на месте.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-main-2 py-5">
+            <div class="container">
+                <h3 class="text-uppercase text-md text-center mb-5">Традиционные методы защиты <br> <span class="text-corp-2">vs Системы Nexus Polyurea Group</span> </h3>
+                <div class="table-responsive">
+                    <table class="table comparison-table  mb-0">
+                        <thead>
+                            <tr>
+                                <th scope="col">Параметр</th>
+                                <th scope="col">Битумные материалы</th>
+                                <th scope="col">ПВХ-мембраны</th>
+                                <th scope="col" class="comparison-table__accent">Nexus Polyurea</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Срок монтажа</td>
+                                <td>2-3 недели</td>
+                                <td>1-2 недели</td>
+                                <td class="comparison-table__accent">1-3 дня</td>
+                            </tr>
+
+                            <tr>
+                                <td>Наличие швов</td>
+                                <td>Множество стыков</td>
+                                <td>Сварные швы</td>
+                                <td class="comparison-table__accent">100% бесшовно</td>
+                            </tr>
+
+                            <tr>
+                                <td>Срок службы</td>
+                                <td>5-10 лет</td>
+                                <td>15-20 лет</td>
+                                <td class="comparison-table__accent">25+ лет</td>
+                            </tr>
+
+                            <tr>
+                                <td>Химическая стойкость</td>
+                                <td>Низкая</td>
+                                <td>Средняя</td>
+                                <td class="comparison-table__accent">Высокая</td>
+                            </tr>
+
+                            <tr>
+                                <td>Температурный диапазон</td>
+                                <td>−20°C до +80°C</td>
+                                <td>−30°C до +80°C</td>
+                                <td class="comparison-table__accent">−40°C до +120°C</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
     </main>
 
-
     <footer id="contacts" class="py-5 text-white">
         <div class="container">
-            <h4 class="text-lg pb-3 mb-4 border-bottom border-light">
-                We’ve here to help and answer any questions you <br> may have about
-            </h4>
-            <div class="row gy-5 justify-content-between">
-                <div class="col-lg-4">
-                    <img src="icons/main-icons/logo.png" alt="" class="img-fluid logo">
-                    <p class="text-xs mt-3 pe-lg-5">
-                        <span class="text-corp">NEXUS POLYUREA GROUP</span> developing and producing polyurea, polyurethane and epoxy resins for construction and industry
-                    </p>
-                </div>
+            <div class="row gy-5 ">
                 <div class="col-lg-3">
-                    <div class="w-100">
-                        <div class="mb-4">
-                            <p class="fw-semibold text-corp text-sm mb-2">
-                                Adress
-                            </p>
-                            <div class="d-flex text-xs gap-2 ">
-                                <i class="bi bi-geo-alt-fill text-corp"></i>
-                                <span> Tashkent, Babura Street 22</span>
-                            </div>
-                        </div>
-                        <div class="">
-                            <p class="fw-semibold text-corp text-sm mb-2">
-                                Phone number
-                            </p>
-                            <a href="tel:+998949981188" class="d-flex text-xs gap-2 ">
-                                <i class="bi bi-geo-alt-fill text-corp"></i>
-                                <span> +998 94 998 11 88</span>
-                            </a>
-                        </div>
-                    </div>
+                    <img src="icons/main-icons/logo-white.svg" alt="Nexus" class="img-fluid footer-logo">
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-2">
                     <div class="w-100">
-                        <p class="fw-semibold text-corp text-sm mb-2">
-                            Naigation
+                        <p class="fw-semibold  text-sm mb-4">
+                            Навигация
                         </p>
                         <div class="d-flex justify-content-between gap-2">
                             <ul class="list-unstyled text-xs">
-                                <li class="mb-3">
-                                    <a class="" href="#about">About</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="" href="#product">Products</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="" href="#sectors">Sectors</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="" href="#process">Process</a>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled text-xs">
-                                <li class="mb-3">
-                                    <a class="" href="#cooperation">Cooperation</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="" href="#waranty">Waranty</a>
-                                </li>
-                                <li class="">
-                                    <a class="" href="#contacts">Contacts</a>
-                                </li>
+                                <li class="mb-3"><a href="#">Главная</a></li>
+                                <li class="mb-3"><a href="#">О компании</a></li>
+                                <li class="mb-3"><a href="#">Продукция</a></li>
+                                <li class="mb-3"><a href="#">Оборудование</a></li>
+                                <li class="mb-3"><a href="#">Технология</a></li>
+                                <li class="mb-3"><a href="#">Услуги</a></li>
                             </ul>
                         </div>
-
                     </div>
                 </div>
 
-
+                <div class="col-lg-3">
+                    <div class="w-100">
+                        <p class="fw-semibold  text-sm mb-4">
+                            Контакты
+                        </p>
+                        <ul class="list-unstyled text-xs">
+                            <li class="mb-3"><a href="tel:+998949981188"><i class="fa-solid fa-phone me-2"></i><span>+998 94 998 11 88</span></a></li>
+                            <li class="mb-3"><a href="mailto:info@"><i class="fa-regular fa-envelope me-2"></i><span>E-mail: info@</span></a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-location-dot me-2"></i><span>г.Ташкент, ул.Бабура 22</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="w-100">
+                        <p class="fw-semibold  text-sm mb-4">
+                            Социальные сети
+                        </p>
+                        <div class="d-flex justify-content-between gap-2">
+                            <ul class="list-unstyled text-xs">
+                                <li class="mb-3"><a href="#"><i class="fa-brands fa-telegram me-2"></i><span>Telegram</span></a></li>
+                                <li class="mb-3"><a href="#"><i class="fa-brands fa-whatsapp me-2"></i><span>WhatsApp</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <a href="#" class="text-xs d-block text-center mt-5 text-decoration-underline">
+                Политика конфиденциальности
+            </a>
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
-    <script src="https://kit.fontawesome.com/f817facf9f.js " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js "></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
-    <script src="main.js "></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/f817facf9f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
