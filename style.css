@@ -475,6 +475,21 @@ footer {
     bottom: 10%;
 }
 
+.comparison-table th,
+.comparison-table td {
+    vertical-align: middle;
+}
+
+.comparison-table th:not(:first-child),
+.comparison-table td:not(:first-child) {
+    text-align: center;
+}
+
+.comparison-table th:first-child,
+.comparison-table td:first-child {
+    text-align: left;
+}
+
 @media (max-width: 767.98px) {
     .comparison-table {
         min-width: 720px;
@@ -523,6 +538,12 @@ footer {
     .timeline-item::before {
         top: 0;
         left: -6px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .comparison-table {
+        min-width: 1020px;
     }
 }
 
