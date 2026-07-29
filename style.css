@@ -82,6 +82,10 @@ a {
     background: var(--color-corp-2);
 }
 
+.bg-corp-4 {
+    background: var(--color-corp-4);
+}
+
 .bg-dark-2 {
     background: #0E1317;
 }
